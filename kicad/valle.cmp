@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Ср. 26 дек. 2012 17:54:05
+
+BeginCmp
+TimeStamp = /50DA974E;
+Reference = AYES1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DA99AA;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DA9A19;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DA9841;
+Reference = HEAD1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DA9440;
+Reference = IC1;
+ValeurCmp = ATMEGA8-P;
+IdModule  = DIP-28__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DA9448;
+Reference = IC2;
+ValeurCmp = L293D;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DA9743;
+Reference = MOTORS1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DAE2CD;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+EndListe

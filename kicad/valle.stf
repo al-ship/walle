@@ -1,0 +1,8 @@
+comp = "AYES1" module = "SIL-4"
+comp = "C1" module = "C1V5"
+comp = "D1" module = "LED-5MM"
+comp = "HEAD1" module = "PIN_ARRAY_3X1"
+comp = "IC1" module = "DIP-28__600"
+comp = "IC2" module = "DIP-16__300"
+comp = "MOTORS1" module = "SIL-4"
+comp = "P1" module = "SIL-2"
