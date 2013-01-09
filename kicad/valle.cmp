@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Пн. 07 янв. 2013 18:41:28
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Ср. 09 янв. 2013 22:38:05
 
 BeginCmp
 TimeStamp = /50DA974E;
@@ -17,20 +17,6 @@ EndCmp
 BeginCmp
 TimeStamp = /50EAA07C;
 Reference = C2;
-ValeurCmp = C;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50EAADB3;
-Reference = C3;
-ValeurCmp = C;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50EAADBF;
-Reference = C4;
 ValeurCmp = C;
 IdModule  = C1;
 EndCmp
@@ -113,13 +99,6 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /50E16631;
-Reference = U1;
-ValeurCmp = LM7905;
-IdModule  = LM79XX;
-EndCmp
-
-BeginCmp
 TimeStamp = /50EAA3CC;
 Reference = UART1;
 ValeurCmp = CONN_2;
@@ -127,10 +106,10 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /50EAADF3;
-Reference = X1;
-ValeurCmp = CRYSTAL;
-IdModule  = CP4;
+TimeStamp = /50ED9B2D;
+Reference = XT1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 EndListe
