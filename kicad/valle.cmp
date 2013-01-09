@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Ср. 26 дек. 2012 17:54:05
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Пн. 07 янв. 2013 18:41:28
 
 BeginCmp
 TimeStamp = /50DA974E;
@@ -8,17 +8,31 @@ IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /50DA99AA;
+TimeStamp = /50EAA03D;
 Reference = C1;
-ValeurCmp = CP1;
+ValeurCmp = CAPAPOL;
 IdModule  = C1V5;
 EndCmp
 
 BeginCmp
-TimeStamp = /50DA9A19;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = LED-5MM;
+TimeStamp = /50EAA07C;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EAADB3;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EAADBF;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = C1;
 EndCmp
 
 BeginCmp
@@ -50,10 +64,73 @@ IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /50DAE2CD;
+TimeStamp = /50EAABE4;
 Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EAAF70;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EAA92E;
+Reference = P3;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DAE2CD;
+Reference = POWER1;
 ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EAAB2C;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EABAC4;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EABB0C;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E16631;
+Reference = U1;
+ValeurCmp = LM7905;
+IdModule  = LM79XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EAA3CC;
+Reference = UART1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EAADF3;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = CP4;
 EndCmp
 
 EndListe
