@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Ср. 09 янв. 2013 22:38:05
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Чт. 10 янв. 2013 22:08:38
 
 BeginCmp
 TimeStamp = /50DA974E;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /50DA9440;
 Reference = IC1;
 ValeurCmp = ATMEGA8-P;
-IdModule  = DIP-28__600;
+IdModule  = DIP-28__300;
 EndCmp
 
 BeginCmp
@@ -75,13 +75,6 @@ TimeStamp = /50DAE2CD;
 Reference = POWER1;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50EAAB2C;
-Reference = R1;
-ValeurCmp = R;
-IdModule  = R3;
 EndCmp
 
 BeginCmp

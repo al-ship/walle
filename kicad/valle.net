@@ -1,125 +1,125 @@
-# EESchema Netlist Version 1.1 created  Чт. 10 янв. 2013 14:30:52
+# EESchema Netlist Version 1.1 created  Чт. 10 янв. 2013 22:08:38
 (
- ( /50ED9B2D $noname  XT1 CONN_2 {Lib=CONN_2}
-  (    1 N-000010 )
-  (    2 N-000003 )
+ ( /50DA974E SIL-4 AYES1 CONN_4
+  ( 1 GND )
+  ( 2 N-000009 )
+  ( 3 N-000034 )
+  ( 4 +5V )
  )
- ( /50EAA03D $noname  C1 CAPAPOL {Lib=CAPAPOL}
-  (    1 +5V )
-  (    2 GND )
+ ( /50EAA03D C1V5 C1 CAPAPOL
+  ( 1 +5V )
+  ( 2 GND )
  )
- ( /50EABB0C $noname  R3 R {Lib=R}
-  (    1 N-000013 )
-  (    2 N-000012 )
+ ( /50EAA07C C1 C2 C
+  ( 1 +5V )
+  ( 2 GND )
  )
- ( /50EABAC4 $noname  R2 R {Lib=R}
-  (    1 N-000031 )
-  (    2 N-000011 )
+ ( /50DA9841 PIN_ARRAY_3X1 HEAD1 CONN_3
+  ( 1 N-000027 )
+  ( 2 +5V )
+  ( 3 GND )
  )
- ( /50EAAF70 $noname  P2 CONN_6 {Lib=CONN_6}
-  (    1 ? )
-  (    2 N-000024 )
-  (    3 N-000023 )
-  (    4 N-000001 )
-  (    5 N-000026 )
-  (    6 GND )
+ ( /50DA9440 DIP-28__300 IC1 ATMEGA8-P
+  ( 1 N-000032 )
+  ( 2 N-000011 )
+  ( 3 N-000012 )
+  ( 4 N-000004 )
+  ( 5 N-000033 )
+  ( 6 N-000017 )
+  ( 7 +5V )
+  ( 8 GND )
+  ( 9 N-000003 )
+  ( 10 N-000010 )
+  ( 11 N-000030 )
+  ( 12 N-000009 )
+  ( 13 N-000034 )
+  ( 14 N-000027 )
+  ( 15 /EN )
+  ( 16 N-000024 )
+  ( 17 N-000023 )
+  ( 18 N-000001 )
+  ( 19 N-000026 )
+  ( 20 +5V )
+  ( 21 ? )
+  ( 22 GND )
+  ( 23 N-000028 )
+  ( 24 N-000021 )
+  ( 25 N-000025 )
+  ( 26 N-000036 )
+  ( 27 N-000035 )
+  ( 28 N-000022 )
  )
- ( /50EAABE4 $noname  P1 CONN_6 {Lib=CONN_6}
-  (    1 N-000028 )
-  (    2 N-000021 )
-  (    3 N-000025 )
-  (    4 N-000036 )
-  (    5 N-000035 )
-  (    6 N-000022 )
+ ( /50DA9448 DIP-16__300 IC2 L293D
+  ( 1 /EN )
+  ( 2 N-000004 )
+  ( 3 N-000019 )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 N-000014 )
+  ( 7 N-000033 )
+  ( 8 +5V )
+  ( 9 /EN )
+  ( 10 N-000030 )
+  ( 11 N-000015 )
+  ( 12 GND )
+  ( 13 GND )
+  ( 14 N-000018 )
+  ( 15 N-000017 )
+  ( 16 +5V )
  )
- ( /50EAA92E $noname  P3 CONN_5X2 {Lib=CONN_5X2}
-  (    1 N-000023 )
-  (    2 +5V )
-  (    3 ? )
-  (    4 GND )
-  (    5 N-000032 )
-  (    6 ? )
-  (    7 N-000026 )
-  (    8 ? )
-  (    9 N-000001 )
-  (   10 ? )
+ ( /50DA9743 SIL-4 MOTORS1 CONN_4
+  ( 1 N-000019 )
+  ( 2 N-000014 )
+  ( 3 N-000018 )
+  ( 4 N-000015 )
  )
- ( /50DA9440 DIL28  IC1 ATMEGA8-P {Lib=ATMEGA8-P}
-  (    1 N-000032 )
-  (    2 N-000011 )
-  (    3 N-000012 )
-  (    4 N-000004 )
-  (    5 N-000033 )
-  (    6 N-000017 )
-  (    7 +5V )
-  (    8 GND )
-  (    9 N-000003 )
-  (   10 N-000010 )
-  (   11 N-000030 )
-  (   12 N-000009 )
-  (   13 N-000034 )
-  (   14 N-000027 )
-  (   15 /EN )
-  (   16 N-000024 )
-  (   17 N-000023 )
-  (   18 N-000001 )
-  (   19 N-000026 )
-  (   20 +5V )
-  (   21 ? )
-  (   22 GND )
-  (   23 N-000028 )
-  (   24 N-000021 )
-  (   25 N-000025 )
-  (   26 N-000036 )
-  (   27 N-000035 )
-  (   28 N-000022 )
+ ( /50EAABE4 PIN_ARRAY-6X1 P1 CONN_6
+  ( 1 N-000028 )
+  ( 2 N-000021 )
+  ( 3 N-000025 )
+  ( 4 N-000036 )
+  ( 5 N-000035 )
+  ( 6 N-000022 )
  )
- ( /50EAA3CC $noname  UART1 CONN_2 {Lib=CONN_2}
-  (    1 N-000031 )
-  (    2 N-000013 )
+ ( /50EAAF70 PIN_ARRAY-6X1 P2 CONN_6
+  ( 1 ? )
+  ( 2 N-000024 )
+  ( 3 N-000023 )
+  ( 4 N-000001 )
+  ( 5 N-000026 )
+  ( 6 GND )
  )
- ( /50EAA07C $noname  C2 C {Lib=C}
-  (    1 +5V )
-  (    2 GND )
+ ( /50EAA92E PIN_ARRAY_5x2 P3 CONN_5X2
+  ( 1 N-000023 )
+  ( 2 +5V )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 N-000032 )
+  ( 6 ? )
+  ( 7 N-000026 )
+  ( 8 ? )
+  ( 9 N-000001 )
+  ( 10 ? )
  )
- ( /50DAE2CD $noname  POWER1 CONN_2 {Lib=CONN_2}
-  (    1 GND )
-  (    2 +5V )
+ ( /50DAE2CD PIN_ARRAY_2X1 POWER1 CONN_2
+  ( 1 GND )
+  ( 2 +5V )
  )
- ( /50DA9841 $noname  HEAD1 CONN_3 {Lib=CONN_3}
-  (    1 N-000027 )
-  (    2 +5V )
-  (    3 GND )
+ ( /50EABAC4 R3 R2 R
+  ( 1 N-000031 )
+  ( 2 N-000011 )
  )
- ( /50DA974E $noname  AYES1 CONN_4 {Lib=CONN_4}
-  (    1 GND )
-  (    2 N-000009 )
-  (    3 N-000034 )
-  (    4 +5V )
+ ( /50EABB0C R3 R3 R
+  ( 1 N-000013 )
+  ( 2 N-000012 )
  )
- ( /50DA9743 $noname  MOTORS1 CONN_4 {Lib=CONN_4}
-  (    1 N-000019 )
-  (    2 N-000014 )
-  (    3 N-000018 )
-  (    4 N-000015 )
+ ( /50EAA3CC PIN_ARRAY_2X1 UART1 CONN_2
+  ( 1 N-000031 )
+  ( 2 N-000013 )
  )
- ( /50DA9448 stepper_drivers-DIL16  IC2 L293D {Lib=L293D}
-  (    1 /EN )
-  (    2 N-000004 )
-  (    3 N-000019 )
-  (    4 GND )
-  (    5 GND )
-  (    6 N-000014 )
-  (    7 N-000033 )
-  (    8 +5V )
-  (    9 /EN )
-  (   10 N-000030 )
-  (   11 N-000015 )
-  (   12 GND )
-  (   13 GND )
-  (   14 N-000018 )
-  (   15 N-000017 )
-  (   16 +5V )
+ ( /50ED9B2D PIN_ARRAY_2X1 XT1 CONN_2
+  ( 1 N-000010 )
+  ( 2 N-000003 )
  )
 )
 *
@@ -128,11 +128,14 @@ $component C1
  CP*
  SM*
 $endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
 $endlist
 $component R2
  R?
@@ -140,133 +143,11 @@ $component R2
  SM0805
  R?-*
 $endlist
-$component IC1
- 28DIP-ELL600
- 28dip600
-$endlist
-$component C2
- SM*
- C?
- C1-1
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- P3 9
- IC1 18
- P2 4
-Net 3 "" ""
- XT1 2
- IC1 9
-Net 4 "" ""
- IC2 2
- IC1 4
-Net 9 "" ""
- AYES1 2
- IC1 12
-Net 10 "" ""
- IC1 10
- XT1 1
-Net 11 "" ""
- IC1 2
- R2 2
-Net 12 "" ""
- IC1 3
- R3 2
-Net 13 "" ""
- R3 1
- UART1 2
-Net 14 "" ""
- MOTORS1 2
- IC2 6
-Net 15 "" ""
- IC2 11
- MOTORS1 4
-Net 17 "" ""
- IC1 6
- IC2 15
-Net 18 "" ""
- MOTORS1 3
- IC2 14
-Net 19 "" ""
- MOTORS1 1
- IC2 3
-Net 20 "/EN" "EN"
- IC2 9
- IC2 1
- IC1 15
-Net 21 "" ""
- IC1 24
- P1 2
-Net 22 "" ""
- IC1 28
- P1 6
-Net 23 "" ""
- IC1 17
- P3 1
- P2 3
-Net 24 "" ""
- P2 2
- IC1 16
-Net 25 "" ""
- IC1 25
- P1 3
-Net 26 "" ""
- P3 7
- P2 5
- IC1 19
-Net 27 "" ""
- IC1 14
- HEAD1 1
-Net 28 "" ""
- IC1 23
- P1 1
-Net 29 "GND" "GND"
- HEAD1 3
- AYES1 1
- C1 2
- P3 4
- IC1 8
- P2 6
- C2 2
- IC1 22
- IC2 4
- IC2 5
- IC2 12
- IC2 13
- POWER1 1
-Net 30 "" ""
- IC1 11
- IC2 10
-Net 31 "" ""
- UART1 1
- R2 1
-Net 32 "" ""
- P3 5
- IC1 1
-Net 33 "" ""
- IC2 7
- IC1 5
-Net 34 "" ""
- IC1 13
- AYES1 3
-Net 35 "" ""
- IC1 27
- P1 5
-Net 36 "" ""
- IC1 26
- P1 4
-Net 37 "+5V" "+5V"
- HEAD1 2
- IC1 7
- IC2 8
- POWER1 2
- AYES1 4
- P3 2
- C1 1
- IC2 16
- C2 1
- IC1 20
-}
-#End
