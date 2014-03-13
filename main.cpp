@@ -62,14 +62,14 @@ static int getDistance()
 	int time = 0;
 	//импульс на триггер 13 мкс
 	AYES_TRIG_PORT |= _BV(AYES_TRIG_PIN);
-	_delay_us(13);
+	_delay_us(10);
 	AYES_TRIG_PORT &= ~_BV(AYES_TRIG_PIN);
 	//ждем импульс на сенсоре
 	loop_until_bit_is_set(AYES_SENS_IN, AYES_SENS_PIN);
 	//считаем длительность импульса на сенсоре
 	while(bit_is_set(AYES_SENS_IN, AYES_SENS_PIN) && time < 1000)
 	{
-		_delay_us(10);
+		_delay_us(9);
 		time++;
 	}
 	return (time * 10) / 58;
@@ -139,6 +139,7 @@ static void init()
 	AYES_SENS_DDR &= ~_BV(AYES_SENS_PIN);//вход сенсора глаз
 	AYES_TRIG_DDR |= _BV(AYES_TRIG_PIN);//выход триггера глаз
 	LED_DDR |= _BV(LED_PIN);
+	ENG_EN_DDR |= _BV(ENG_EN_PIN);
 
 }
 
@@ -162,9 +163,12 @@ int main(void)
 {
 	init();
 	//LED_PORT |= _BV(LED_PIN);
+	_delay_ms(MIN_MOVE_TIME);
 	turnHead(0);
 	turnHead(180);
 	turnHead(90);
+	//вкл двигателя
+	ENG_EN_PORT |= _BV(ENG_EN_PIN);
 	while(1)
 	{// осн цикл
 		//смотрим препятствие, поворачиваемся
